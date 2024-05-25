@@ -68,6 +68,7 @@ class Mod implements IPostDBLoadMod {
                         if(gridFilter.Filter.includes(iterator)){continue;}
                         gridFilter.Filter.push(iterator);
                     }
+                    /*
                     // 不可存入类型做差集，因为安全原因无法使用 lodash
                     //gridFilter.ExcludedFilter = difference(gridFilter.ExcludedFilter,filterArray);
                     const newArray = [];
@@ -76,6 +77,8 @@ class Mod implements IPostDBLoadMod {
                         newArray.push(iterator);
                     }
                     gridFilter.ExcludedFilter = newArray;
+                    */
+                    gridFilter.ExcludedFilter = [];
                 }
             }
         }

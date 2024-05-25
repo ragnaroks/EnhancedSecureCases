@@ -1,6 +1,6 @@
 {
     "name": "EnhancedSecureCases",
-    "version": "3.8.20240519",
+    "version": "3.8.20240525",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "ragnaroks",
